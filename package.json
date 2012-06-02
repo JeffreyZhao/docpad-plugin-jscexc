@@ -1,0 +1,28 @@
+{
+	"name": "docpad-plugin-jscexc",
+	"version": "0.1.0",
+	"description": "DocPad plugin which adds the ability to apply AOT compilation to JavaScript files.",
+	"homepage": "https://github.com/JeffreyZhao/docpad-plugin-jscexc",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"jscex",
+        "async-programming"
+	],
+	"author": "Jeffrey Zhao <jeffz@live.com> (http://zhaojie.me/)",
+	"bugs": {
+		"url": "https://github.com/JeffreyZhao/docpad-plugin-jscexc/issues"
+	},
+	"repository" : {
+		"type": "git",
+		"url": "http://github.com/JeffreyZhao/docpad-plugin-jscexc.git"
+	},
+	"engines" : {
+		"node": ">=0.4.0",
+		"docpad": "5.x"
+	},
+	"dependencies": {
+		"jscexc": "x"
+	},
+	"main": "./jscexc.plugin.coffee"
+}
